@@ -6,7 +6,7 @@ class Doge
   attr_reader :image
 
   def initialize(&block)
-    @image = Magick::ImageList.new('lib/doge/images/doge.jpg')
+    @image = Magick::ImageList.new(File.expand_path('doge/images/doge.jpg', File.dirname(__FILE__)))
     @occupied = []
     instance_eval &block if block
   end
