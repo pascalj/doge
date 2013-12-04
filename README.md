@@ -1,5 +1,7 @@
 # Doge
 
+[![Gem Version](https://badge.fury.io/rb/chapter.png)](http://badge.fury.io/rb/chapter)
+
 ```
 such gem
 
@@ -45,7 +47,7 @@ Will write the image to disk:
 
 `#image` will return an [`Magick::Image`](http://www.simplesystems.org/RMagick/doc/imageattrs.html).
 
-Available methods are `such`, `wow`, `so`, `amaze` and `wuff` which writes a custom string.
+Available methods are `such`, `wow`, `so`, `amaze`, `very` and `wuff` which writes a custom string.
 
 ## Contributing
 

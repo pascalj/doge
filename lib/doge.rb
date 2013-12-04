@@ -21,7 +21,7 @@ class Doge
     self
   end
 
-  [:such, :wow, :so, :much, :amaze].each do |word|
+  [:such, :wow, :so, :much, :amaze, :very].each do |word|
     define_method(word) { |text = ''| wuff(word.to_s  + " " + text) }
   end
 
