@@ -1,6 +1,6 @@
 # Doge
 
-[![Gem Version](https://badge.fury.io/rb/chapter.png)](http://badge.fury.io/rb/chapter)
+[![Gem Version](https://badge.fury.io/rb/doge.png)](http://badge.fury.io/rb/doge)
 
 ```
 such gem
