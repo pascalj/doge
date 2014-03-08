@@ -47,7 +47,7 @@ Will write the image to disk:
 
 `#image` will return an [`Magick::Image`](http://www.simplesystems.org/RMagick/doc/imageattrs.html).
 
-Available methods are `such`, `wow`, `so`, `amaze`, `very` and `wuff` which writes a custom string.
+Available methods are `such`, `wow`, `so`, `amaze`, `very` and `wuff` which writes a custom string. You can specify a custom image by handing over a file path `Doge.new(my_image)`.
 
 ## Contributing
 
